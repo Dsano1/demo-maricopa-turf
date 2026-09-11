@@ -7,6 +7,7 @@
 <meta name="description" content="Premium artificial grass installation for homes, pets, and putting greens across Maricopa County. Free quotes. 15-year warranty. Zero maintenance, always green.">
 <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJz48dGV4dCB5PScuOWVtJyBmb250LXNpemU9JzkwJz7wn4y/PC90ZXh0Pjwvc3ZnPg==">
 <script>document.documentElement.className='js'</script>
+<link rel="preload" as="image" href="images/hero.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -44,9 +45,9 @@
   .hero-rating{margin-top:28px;font-size:14px;color:rgba(255,255,255,.78)}
   .hero-rating .stars{color:#f5b301}
   .g-review{position:absolute;right:90px;bottom:56px;z-index:3;background:#fff;color:var(--ink);border-radius:16px;padding:16px 18px;box-shadow:0 16px 44px rgba(0,0,0,.4);width:238px}
-  .g-review .tag{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:11px;color:#777;font-weight:700}
+  .g-review .tag{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:11px;color:#4b5f52;font-weight:700}
   .g-review p{font-size:13.5px;font-weight:600;line-height:1.4;margin:0 0 4px;color:#222}
-  .g-review .who{font-size:12.5px;color:#888}
+  .g-review .who{font-size:12.5px;color:#5b6660}
   .trust{display:flex;gap:26px;flex-wrap:wrap;margin-top:38px;font-size:13.5px;color:rgba(255,255,255,.75)}
   .trust b{display:block;font-size:17px;color:#fff;font-family:'Sora'}
   .stats{background:var(--lime);color:var(--ink)}
@@ -95,7 +96,7 @@
   .fld input:focus,.fld textarea:focus{outline:2px solid var(--green);border-color:transparent}
   footer{background:var(--ink);color:rgba(255,255,255,.65);padding:36px 0;font-size:13.5px}
   footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-  footer a{color:rgba(255,255,255,.85);text-decoration:none}
+  footer a{color:#fff;text-decoration:underline;text-underline-offset:3px}
   html.js .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
   html.js .reveal.in{opacity:1;transform:none}
   .menu-btn{display:none;background:none;border:none;cursor:pointer;padding:8px}
@@ -145,7 +146,7 @@
 </header>
 
 <section class="hero">
-  <img class="hero-bg" src="images/hero.jpg" alt="Premium artificial turf lawn installed at an Arizona home" loading="eager">
+  <img class="hero-bg" src="images/hero.webp" alt="Premium artificial turf lawn installed at an Arizona home" loading="eager" fetchpriority="high">
   <div class="hero-shade"></div>
   <div class="wrap">
     <div class="eyebrow" style="color:var(--lime)">Maricopa County, Arizona</div>
@@ -179,28 +180,28 @@
     <p class="lead">Every lawn is different — that's why we custom-fit every project instead of selling one-size-fits-all rolls.</p>
     <div class="pcards">
       <div class="pcard reveal">
-        <img src="images/kids.jpg" alt="Kids playing on a residential artificial turf lawn" loading="lazy">
+        <img src="images/kids.webp" alt="Kids playing on a residential artificial turf lawn" loading="lazy">
         <div class="pcard-body">
           <h3>Residential Lawns</h3>
           <p>Lush, natural-looking yards that never need watering, mowing, or fertilizing — and cut your water bill dramatically.</p>
         </div>
       </div>
       <div class="pcard reveal">
-        <img src="images/dog.jpg" alt="Dog playing on pet-safe artificial turf" loading="lazy">
+        <img src="images/dog.webp" alt="Dog playing on pet-safe artificial turf" loading="lazy">
         <div class="pcard-body">
           <h3>Pet Turf Systems</h3>
           <p>Antimicrobial, drain-fast turf with odor control. Say goodbye to muddy paws and dead patches — for good.</p>
         </div>
       </div>
       <div class="pcard reveal">
-        <img src="images/green.jpg" alt="Backyard putting green with premium synthetic turf" loading="lazy">
+        <img src="images/green.webp" alt="Backyard putting green with premium synthetic turf" loading="lazy">
         <div class="pcard-body">
           <h3>Putting Greens</h3>
           <p>PGA-quality backyard greens with custom fringe, breaks, and cup placement. Practice your short game at home.</p>
         </div>
       </div>
       <div class="pcard reveal">
-        <img src="images/commercial.jpg" alt="Commercial property with artificial turf landscaping" loading="lazy">
+        <img src="images/commercial.webp" alt="Commercial property with artificial turf landscaping" loading="lazy">
         <div class="pcard-body">
           <h3>Commercial Spaces</h3>
           <p>Drought-friendly landscaping for HOAs, office parks, and storefronts that looks immaculate 365 days a year.</p>
@@ -215,9 +216,9 @@
     <div class="eyebrow">Our Work</div>
     <h2 class="sec">Recent installs across the Valley</h2>
     <div class="bento reveal">
-      <img class="b1" src="images/hero.jpg" alt="Full backyard turf installation, Gilbert AZ" loading="lazy">
-      <img class="b2" src="images/green.jpg" alt="Custom putting green install" loading="lazy">
-      <img class="b3" src="images/dog.jpg" alt="Pet turf install with happy dog" loading="lazy">
+      <img class="b1" src="images/hero.webp" alt="Full backyard turf installation, Gilbert AZ" loading="lazy">
+      <img class="b2" src="images/green.webp" alt="Custom putting green install" loading="lazy">
+      <img class="b3" src="images/dog.webp" alt="Pet turf install with happy dog" loading="lazy">
     </div>
   </div>
 </section>
@@ -296,8 +297,8 @@
         <div class="fld"><label>Phone</label><input type="tel" placeholder="(480) 555-0000" required></div>
         <div class="fld"><label>Email</label><input type="email" placeholder="jane@email.com" required></div>
         <div class="fld">
-          <label>Project Type</label>
-          <select><option>Residential Lawn</option><option>Pet Turf</option><option>Putting Green</option><option>Commercial Space</option></select>
+          <label for="ptype">Project Type</label>
+          <select id="ptype"><option>Residential Lawn</option><option>Pet Turf</option><option>Putting Green</option><option>Commercial Space</option></select>
         </div>
         <div class="fld"><label>Anything we should know?</label><textarea rows="3" placeholder="Approx. square footage, timeline, etc."></textarea></div>
         <button class="btn btn-primary" type="submit" style="width:100%;border:none;cursor:pointer">Request Free Quote</button>
